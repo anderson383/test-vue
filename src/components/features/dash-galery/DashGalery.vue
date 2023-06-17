@@ -16,9 +16,10 @@
   // Import Swiper styles
   import 'swiper/css';
 
-  import 'swiper/css/navigation';
-
-
+  import 'swiper/css/navigation'; 
+  import Image1 from '../../../assets/img/img-galery-1.jpg'
+  import Image2 from '../../../assets/img/img-galery-2.jpg'
+  import Image3 from '../../../assets/img/img-galery-3.jpg'
   // import required modules
   import { Navigation } from 'swiper';
 
@@ -30,16 +31,16 @@
     setup() {
       return {
         modules: [Navigation],
-
+        publicPath: '',
         images: [
           {
-            url: '/src/assets/img/img-galery-1.jpg'
+            url: Image1
           },
           {
-            url: '/src/assets/img/img-galery-2.jpg'
+            url: Image2
           },
           {
-            url: '/src/assets/img/img-galery-3.jpg'
+            url: Image3
           }
         ]
       };
