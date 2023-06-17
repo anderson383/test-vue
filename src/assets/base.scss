@@ -1,0 +1,46 @@
+
+
+.badge-gray,
+.badge-yellow {
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+  position: absolute;
+  top: -0.3em;
+  right: -0.3em;
+}
+
+.badge-yellow {
+  background-color: #D9B75F;
+}
+
+.badge-gray {
+  background-color: #647280;
+}
+
+.btn-icon {
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 3.5em;
+  height:  3.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: relative;
+}
+
+.bg-green {
+  background: #13B497;
+}
+
+.bg-gray {
+  background: #2F363D;
+}
+.bg-gray-light {
+  background: #C4C4C4;
+}
+
+.justify-end {
+  justify-content: flex-end !important;
+}

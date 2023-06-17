@@ -1,0 +1,24 @@
+@import './base.scss';
+@import './modules/var';
+@import './fonts/typography';
+@import './modules/mixins';
+* {
+  font-family: $poppins;
+  font-weight: normal;
+}
+body {
+  background-color: #24292E;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+.container {
+  max-width: 1760px;
+  padding: 0 52px  0 33px;
+  margin: 0 auto;
+
+  @include media('mobile') {
+    padding: 0 21px  0 21px;
+  }
+} 
